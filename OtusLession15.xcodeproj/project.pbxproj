@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D294CAD1232185D1002DEF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAD0232185D1002DEF6E /* AppDelegate.swift */; };
+		D294CAEC2321866C002DEF6E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAE42321866C002DEF6E /* SearchController.swift */; };
+		D294CAED2321866C002DEF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294CAE52321866C002DEF6E /* LaunchScreen.storyboard */; };
+		D294CAEE2321866C002DEF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294CAE72321866C002DEF6E /* Main.storyboard */; };
+		D294CAEF2321866C002DEF6E /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAEA2321866C002DEF6E /* SearchViewModel.swift */; };
+		D294CAF323218672002DEF6E /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAF123218672002DEF6E /* GithubService.swift */; };
+		D294CAF423218672002DEF6E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAF223218672002DEF6E /* Repository.swift */; };
+		D294CAF8232186FD002DEF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D294CAF7232186FD002DEF6E /* Assets.xcassets */; };
+		D294CAFB23218851002DEF6E /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAFA23218851002DEF6E /* NetworkProvider.swift */; };
+		D294CAFD232188E1002DEF6E /* NetworkProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAFC232188E1002DEF6E /* NetworkProviderProtocol.swift */; };
+		D294CAFF23218960002DEF6E /* NetworkResponseParserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CAFE23218960002DEF6E /* NetworkResponseParserProtocol.swift */; };
+		D294CB012321896A002DEF6E /* NetworkResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CB002321896A002DEF6E /* NetworkResponseParser.swift */; };
+		D294CB0323218B44002DEF6E /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294CB0223218B44002DEF6E /* ServiceLocator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D294CACD232185D1002DEF6E /* OtusLession15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusLession15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D294CAD0232185D1002DEF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D294CADC232185D2002DEF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D294CAE42321866C002DEF6E /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		D294CAE62321866C002DEF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D294CAE82321866C002DEF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D294CAEA2321866C002DEF6E /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D294CAF123218672002DEF6E /* GithubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		D294CAF223218672002DEF6E /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		D294CAF7232186FD002DEF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D294CAFA23218851002DEF6E /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		D294CAFC232188E1002DEF6E /* NetworkProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderProtocol.swift; sourceTree = "<group>"; };
+		D294CAFE23218960002DEF6E /* NetworkResponseParserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseParserProtocol.swift; sourceTree = "<group>"; };
+		D294CB002321896A002DEF6E /* NetworkResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseParser.swift; sourceTree = "<group>"; };
+		D294CB0223218B44002DEF6E /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D294CACA232185D0002DEF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D294CAC4232185D0002DEF6E = {
+			isa = PBXGroup;
+			children = (
+				D294CACF232185D1002DEF6E /* OtusLession15 */,
+				D294CACE232185D1002DEF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D294CACE232185D1002DEF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D294CACD232185D1002DEF6E /* OtusLession15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D294CACF232185D1002DEF6E /* OtusLession15 */ = {
+			isa = PBXGroup;
+			children = (
+				D294CAF9232187C8002DEF6E /* Core */,
+				D294CAF023218672002DEF6E /* Services */,
+				D294CAE92321866C002DEF6E /* ViewModels */,
+				D294CAE22321866C002DEF6E /* Views */,
+				D294CAD0232185D1002DEF6E /* AppDelegate.swift */,
+				D294CADC232185D2002DEF6E /* Info.plist */,
+			);
+			path = OtusLession15;
+			sourceTree = "<group>";
+		};
+		D294CAE22321866C002DEF6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D294CAF7232186FD002DEF6E /* Assets.xcassets */,
+				D294CAE42321866C002DEF6E /* SearchController.swift */,
+				D294CAE52321866C002DEF6E /* LaunchScreen.storyboard */,
+				D294CAE72321866C002DEF6E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D294CAE92321866C002DEF6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D294CAEA2321866C002DEF6E /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D294CAF023218672002DEF6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D294CAF123218672002DEF6E /* GithubService.swift */,
+				D294CAF223218672002DEF6E /* Repository.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D294CAF9232187C8002DEF6E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D294CAFA23218851002DEF6E /* NetworkProvider.swift */,
+				D294CAFC232188E1002DEF6E /* NetworkProviderProtocol.swift */,
+				D294CAFE23218960002DEF6E /* NetworkResponseParserProtocol.swift */,
+				D294CB002321896A002DEF6E /* NetworkResponseParser.swift */,
+				D294CB0223218B44002DEF6E /* ServiceLocator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D294CACC232185D0002DEF6E /* OtusLession15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D294CADF232185D2002DEF6E /* Build configuration list for PBXNativeTarget "OtusLession15" */;
+			buildPhases = (
+				D294CAC9232185D0002DEF6E /* Sources */,
+				D294CACA232185D0002DEF6E /* Frameworks */,
+				D294CACB232185D0002DEF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtusLession15;
+			productName = OtusLession15;
+			productReference = D294CACD232185D1002DEF6E /* OtusLession15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D294CAC5232185D0002DEF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Otus;
+				TargetAttributes = {
+					D294CACC232185D0002DEF6E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D294CAC8232185D0002DEF6E /* Build configuration list for PBXProject "OtusLession15" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D294CAC4232185D0002DEF6E;
+			productRefGroup = D294CACE232185D1002DEF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D294CACC232185D0002DEF6E /* OtusLession15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D294CACB232185D0002DEF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D294CAEE2321866C002DEF6E /* Main.storyboard in Resources */,
+				D294CAF8232186FD002DEF6E /* Assets.xcassets in Resources */,
+				D294CAED2321866C002DEF6E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D294CAC9232185D0002DEF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D294CAF323218672002DEF6E /* GithubService.swift in Sources */,
+				D294CAEF2321866C002DEF6E /* SearchViewModel.swift in Sources */,
+				D294CAF423218672002DEF6E /* Repository.swift in Sources */,
+				D294CAD1232185D1002DEF6E /* AppDelegate.swift in Sources */,
+				D294CAEC2321866C002DEF6E /* SearchController.swift in Sources */,
+				D294CAFF23218960002DEF6E /* NetworkResponseParserProtocol.swift in Sources */,
+				D294CB0323218B44002DEF6E /* ServiceLocator.swift in Sources */,
+				D294CAFD232188E1002DEF6E /* NetworkProviderProtocol.swift in Sources */,
+				D294CAFB23218851002DEF6E /* NetworkProvider.swift in Sources */,
+				D294CB012321896A002DEF6E /* NetworkResponseParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D294CAE52321866C002DEF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D294CAE62321866C002DEF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D294CAE72321866C002DEF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D294CAE82321866C002DEF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D294CADD232185D2002DEF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D294CADE232185D2002DEF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D294CAE0232185D2002DEF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OtusLession15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.otus.OtusLession15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D294CAE1232185D2002DEF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OtusLession15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.otus.OtusLession15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D294CAC8232185D0002DEF6E /* Build configuration list for PBXProject "OtusLession15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294CADD232185D2002DEF6E /* Debug */,
+				D294CADE232185D2002DEF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D294CADF232185D2002DEF6E /* Build configuration list for PBXNativeTarget "OtusLession15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294CAE0232185D2002DEF6E /* Debug */,
+				D294CAE1232185D2002DEF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D294CAC5232185D0002DEF6E /* Project object */;
+}
